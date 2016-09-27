@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven'
 //apply plugin: 'eclipse'
 
-version = '1.0'
+version = '1.0-SNAPSHOT'
 group = 'com.caseonit.library'
 //sourceCompatibility = '1.6'
 
@@ -19,7 +19,7 @@ android {
 
     uploadArchives {
         repositories.mavenDeployer {
-            repository(url: "file:///C/prueba_mvn")
+            repository(url: "file://C/prueba_mvn2")
         }
     }
 
