@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
-apply plugin: 'eclipse'
+//apply plugin: 'eclipse'
 
 version = '1.0'
 group = 'com.caseonit.library'
-sourceCompatibility = '1.6'
+//sourceCompatibility = '1.6'
 
 android {
     compileSdkVersion 23
@@ -35,5 +35,4 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
-//    compile 'com.caseonit.library:app-release:+'
 }
